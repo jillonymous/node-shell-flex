@@ -8,5 +8,5 @@ module.exports = function cat (file) {
       process.stdout.write(data.trim().toString());
       process.stdout.write('\nprompt > ');
     }
-  })
-}
+  });
+};
